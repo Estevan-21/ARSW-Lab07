@@ -19,6 +19,7 @@ var ConsultControllerModule = (function () {
                 }
                 var primero=0;
                 var tabla = document.getElementById('myTable');
+
                 for (property in lista){
                     var obj= lista[property];
                     console.log(property);
